@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.access-page {
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url();
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.access-page .content {
+  width: 90%;
+  max-width: 400px;
+  padding: 30px;
+  border-radius: 12px;
+}
+.access-page .content .logo_access {
+  margin: o auto;
+}
+.access-page .content .title_access {
+  text-align: center;
+}
+.access-page .content .subtitle_access {
+  text-align: center;
+}
+.access-page .content .form-access {
+  display: flex;
+  flex-direction: row;
+}
+
+/*# sourceMappingURL=style.css.map */

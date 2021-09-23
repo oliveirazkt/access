@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.access-page {
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url();
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    .content {
+        width: 90%;
+        max-width: 400px;
+        padding: 30px;
+        border-radius: 12px;
+
+        .logo_access {
+            margin: o auto;
+        }
+        .title_access {
+            text-align: center;
+        }
+        .subtitle_access {
+            text-align: center;
+        }
+
+        .form-access {
+            display: flex;
+            flex-direction: row;
+            
+            label {}
+            input {}
+            .check_access {}
+            .btn_access {}
+            .link_access {}
+        }
+    }
+}
